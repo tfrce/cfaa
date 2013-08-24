@@ -3,30 +3,39 @@ layout: home
 title: Home Page
 
 featurettes:
-  - title: 1% setup. 99% productivity.
-    subtitle: It'll blow your mind.
+  - title: Break the terms of service? 
+    subtitle: You are a felon.
     img: setup.png
     text: |
-      [Octopress](http://octopress.org) makes managing static sites and blogs as easy as can be. [Bootstrap](http://getbootstrap.com) does the same thing for front-end development and styling.
+          The Computer Fraud and Abuse Act (CFAA) is so broad that law
+          enforcement says it criminalizes all sorts of mundane Internet use.
 
-      **[Octostrap](https://github.com/bobwaycott/octostrap) is the baby everyone wanted them to have.**
+          Potentially even breaking a website's fine print terms of service agreement.
+          Don't set up a Myspace page for your cat. Don't fudge your height on a dating
+          site. Don't share your Facebook password with anybody. 
 
-  - title: Do anything.
-    subtitle: Octostrap won't stand in your way.
+          **You could be committing a federal crime.**
+
+  - title: Take action.
+    subtitle: It's not too late.
     img: code.png
     text: |
-      Octopress is known for its impressive flexibility to make any page wanted, at any URL, and there's no complicated CMS or admins or other crap getting in the way.
+        "Aaron's Law" would fix parts of the Computer Fraud and Abuse Act
+        that mean that we are all federal felons. 
 
-      Bootstrap excels at providing a clean and consistent framework for building up any UI imaginable.
+        Rep. Zoe Lofgren and Sen. Ron Wyden just introduced "Aaron's
+        Law", which would fix some of the worst parts of the Computer Fraud and Abuse
+        Act, including those which make it a potential crime to violate terms of
+        service agreements -- that fine print that nobody reads at the bottom of a
+        website.
+  
+        **List yourself as a "citizen cosponsor" of Aaron's Law.**
 
-      **Octostrap steps back and lets both of them shine together.**
-
-  - title: Static.
-    subtitle: Speed.
+  - title: Tell your friends.
+    subtitle: We need everybody.
     text: |
-      Not every nail needs a server-side framework+database hammer.
+        Twitter
 
-      Not everyone who wants a website or blog wants to figure out how to setup a database, proxy requests, or build models+views+controllers.
+        Facebok
 
-      **Octostrap has you covered.**
 ---
