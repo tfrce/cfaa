@@ -31,7 +31,10 @@
           {% capture page_url  %}{{ page.url | remove: "index.html" }}{% endcapture %}
           <li {% if page_url == site.root %}class="active"{% endif %}><a href="{{ site.root }}">Home</a></li>
           <li {% if page_url == "/blog/" %}class="active"{% endif %}><a href="{{ root_url }}/blog/">Blog</a></li>
-          <li {% if page_url == "/docs/" %}class="active"{% endif %}><a href="{{ root_url }}/docs/">Docs</a></li>
+          <li {% if page_url == "/docs/" %}class="active"{% endif %}><a href="{{ root_url }}/about/">About</a></li>
+          <li {% if page_url == "/docs/" %}class="active"{% endif %}><a href="{{ root_url }}/cases/">Cases</a></li>
+          <li {% if page_url == "/docs/" %}class="active"{% endif %}><a href="{{ root_url }}/victims/">Victims</a></li>
+          <li {% if page_url == "/docs/" %}class="active"{% endif %}><a href="{{ root_url }}/take-action/">Action</a></li>
         </ul> <!-- /nav -->
         <h3 class="text-muted"><a href="{{ root_url }}/">{{ site.title }}</a></h3>
       </div> <!-- /header -->
