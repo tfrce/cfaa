@@ -3,19 +3,15 @@ layout: default
 ---
 
 <div class="top blue pattern">
-    <img src="holder.js/512x512">
-  
+    <img src="holder.js/400x300">
 </div>
-<div class="content">
+<div class="container content">
 
-  <p class="lead">
-  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
-  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
-  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
-  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
-  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
-  lorium epsum lorium epsum lorium epsum lorium epsum
-  </p>
+  <div class="lead">
+    <h2>
+      The Computer Fraud and Abuse Act needs to be fixed. Here is another sentence about this to introduce people to the idea. 
+    </h2>
+  </div>
   <hr class="divider">
 
   <div class="row">
@@ -23,16 +19,19 @@ layout: default
       <div class="featurette col-md-4">
         <img class="featurette-image img-circle" src="holder.js/200x200">
         <h3 class="featurette-heading">{{ feature.title }} <span class="text-muted">{{ feature.subtitle }}</span></h3>
-        <p class="lead">{{ feature.text | markdownify }}</p>
+        <p class="featurette-lead">{{ feature.text | markdownify }}</p>
       </div>
       {% endfor %}
   </div>
 
   <hr class="divider">
-
-  <h2 class="info">Fix the CFAA is supported by</h2>
-  <div class="infolinks">
-    <img src="holder.js/300x100">
-    <img src="holder.js/300x100">
+  <div class="info">
+    <h4>
+      Fix the CFAA is supported by
+    </h4>
+    <div class="infolinks">
+      <img src="holder.js/300x150">
+      <img src="holder.js/300x150">
+    </div>
   </div>
 </div>
