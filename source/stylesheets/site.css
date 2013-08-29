@@ -2,31 +2,24 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  color: #777;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile-first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+.top {
+    width: 100%;
+    text-align: center;
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
+.blue {
+    background-color: #000033;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
+
+.pattern {
+    background-image: url("/images/tweed.png");
+    background-repeat: repeat;
 }
-/* No text decoration on header link */
-.header h3 a {
-  text-decoration: none;
-}
+
+
 
 /* Custom page footer */
 .footer {
@@ -35,67 +28,23 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
-/* Pad the edges of the mobile views a bit */
-.marketing {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
   margin: 80px 0; /* Space out the Bootstrap <hr> more */
 }
-.featurette {
-  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
-  overflow: hidden; /* Vertically center images part 2: clear their floats. */
-}
-.featurette-image {
-  margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-}
-
-/* Give some space on the sides of the floated elements so text doesn't run right into it. */
-.featurette-image.pull-left {
-  margin-right: 40px;
-}
-.featurette-image.pull-right {
-  margin-left: 40px;
-}
 
 /* Thin out the marketing headings */
+
+.featurette {
+    text-align: center;
+}
 .featurette-heading {
-  font-size: 50px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1;
   letter-spacing: -1px;
+  color: #CC0000;
 }
 
 /* Responsive: Portrait tablets and up */

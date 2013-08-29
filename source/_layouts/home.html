@@ -2,20 +2,37 @@
 layout: default
 ---
 
-<div class="jumbotron">
-  <h1>{{ site.subtitle }}</h1>
-  <p class="lead">Fix the CFAA</p>
-  <p><a class="btn btn-large btn-success" href="/">What's the CFAA?</a></p>
+<div class="top blue pattern">
+    <img src="holder.js/512x512">
+  
 </div>
+<div class="content">
 
-<!-- START THE FEATURETTES -->
-<hr class="featurette-divider">
-{% for feature in page.featurettes %}
-  <div class="featurette">
-    <img class="featurette-image img-circle {% cycle 'pull-right', 'pull-left' %}" src="holder.js/512x512">
-    <h2 class="featurette-heading">{{ feature.title }} <span class="text-muted">{{ feature.subtitle }}</span></h2>
-    <p class="lead">{{ feature.text | markdownify }}</p>
+  <p class="lead">
+  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
+  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
+  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
+  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
+  lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum lorium epsum
+  lorium epsum lorium epsum lorium epsum lorium epsum
+  </p>
+  <hr class="divider">
+
+  <div class="row">
+    {% for feature in page.featurettes %}
+      <div class="featurette col-md-4">
+        <img class="featurette-image img-circle" src="holder.js/200x200">
+        <h3 class="featurette-heading">{{ feature.title }} <span class="text-muted">{{ feature.subtitle }}</span></h3>
+        <p class="lead">{{ feature.text | markdownify }}</p>
+      </div>
+      {% endfor %}
   </div>
-  <hr class="featurette-divider">
-{% endfor %}
-<!-- /END THE FEATURETTES -->
+
+  <hr class="divider">
+
+  <h2 class="info">Fix the CFAA is supported by</h2>
+  <div class="infolinks">
+    <img src="holder.js/300x100">
+    <img src="holder.js/300x100">
+  </div>
+</div>
